@@ -1,0 +1,104 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+/* flex geral */
+.flex {
+  display: flex;
+}
+
+/* navbar */
+nav {
+  width: 80%;
+  height: 50px;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #7b4ae2;
+  border-radius: 2em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 1em;
+}
+nav ul li {
+  margin: 0 0.4em;
+}
+
+.logo-container {
+  width: 50px;
+  height: 50px;
+  margin: 0 1em;
+  justify-content: center;
+  align-items: center;
+}
+.logo-container img {
+  width: 35px;
+  height: 35px;
+}
+
+/* conteudo pricipal */
+
+.content-home {
+  justify-content: space-between;
+}
+
+/* conteudo principal destaque */
+.my-avatar {
+  background-color: #7b4ae2;
+  border-radius: 50%;
+  margin-top: 1em;
+  width: 500px;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* icones fundo */
+.icons {
+  position: relative;
+  width: 60px;
+  height: 60px;
+}
+
+.js {
+  top: 0%;
+  left: 50%;
+}
+
+.react {
+  top: -30%;
+  left: 15%;
+}
+
+.bootstrap {
+  top: -30%;
+  left: -50%;
+}
+
+.html {
+  top: 10%;
+  left: -25%;
+}
+
+.css {
+  top: -10%;
+  left: -37%;
+}
+
+/* foto */
+
+.profile {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 25%;
+}
