@@ -6,11 +6,20 @@ body {
   background-color: #090e16;
   color: #fff;
 }
+/* link geral */
+a {
+  text-decoration: none;
+}
 /* margin-auto */
 
 .vert {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.horz {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* flex geral */
@@ -40,6 +49,12 @@ nav ul li {
   margin: 0 0.4em;
 }
 
+nav ul li:hover {
+  color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #7b4ae2;
+  border-radius: 0.5em;
+}
+
 .logo-container {
   width: 50px;
   height: 50px;
@@ -50,6 +65,12 @@ nav ul li {
 .logo-container img {
   width: 35px;
   height: 35px;
+  cursor: pointer;
+}
+
+.logo-container img:hover {
+  width: 40px;
+  height: 40px;
 }
 
 /* conteudo pricipal */
@@ -177,4 +198,47 @@ nav ul li {
   width: 160px;
   border-radius: 1em;
   border: 1px solid #7b4ae2;
+}
+
+.my-wpp {
+  color: rgba(123, 74, 226, 0.3);
+}
+
+.about-section {
+  justify-content: space-between;
+  margin-top: 1em;
+  border-top: 1px solid #7b4ae2;
+  max-width: 70%;
+}
+
+.container-about {
+  width: 200px;
+  height: 150px;
+  border-radius: 1rem;
+  border: 1px solid rgba(123, 74, 226, 0.2);
+  text-align: center;
+  justify-content: center;
+  padding: 0.5em;
+  margin-top: 10%;
+  cursor: pointer;
+}
+
+.container-about:hover {
+  background-color: rgba(123, 74, 226, 0.2);
+}
+
+.section-about {
+  margin-top: 1em;
+  border-radius: 1em;
+  background-color: rgba(123, 74, 226, 0.2);
+  border: 1px solid rgba(123, 74, 226, 0.2);
+  max-width: 70%;
+  height: 70px;
+}
+
+.section-container {
+  width: 200px;
+  text-align: center;
+  flex-direction: column;
+  line-height: 0;
 }
