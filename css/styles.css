@@ -6,6 +6,12 @@ body {
   background-color: #090e16;
   color: #fff;
 }
+
+/* border geral */
+.border {
+  border-top: 1px solid #7b4ae2;
+  margin-top: 5%;
+}
 /* link geral */
 a {
   text-decoration: none;
@@ -29,7 +35,7 @@ a {
 
 /* navbar */
 nav {
-  width: 80%;
+  width: 85%;
   height: 50px;
   margin-top: 1em;
   margin-left: auto;
@@ -50,9 +56,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  color: rgba(255, 255, 255, 0.7);
-  border: 1px solid #7b4ae2;
-  border-radius: 0.5em;
+  color: #7b4ae2;
 }
 
 .logo-container {
@@ -88,7 +92,7 @@ nav ul li:hover {
   height: 500px;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 10px rgba(95, 4, 155, 0.5);
 }
 
 /* icones fundo */
@@ -135,13 +139,13 @@ nav ul li:hover {
 /* saudações e git */
 
 .greetings-info {
-  margin-left: 0.5em;
+  margin-left: 8%;
 }
 
 .greetings-content {
   width: 125px;
   height: 35px;
-  background-color: rgba(105, 105, 105, 0.7);
+  background-color: #14142b;
   border-radius: 1em;
   text-align: center;
 }
@@ -180,7 +184,7 @@ nav ul li:hover {
 /* etapa do cv */
 .cv-contact {
   text-align: right;
-  margin-right: 1em;
+  margin-right: 8%;
 }
 
 .cv-contact p {
@@ -207,19 +211,21 @@ nav ul li:hover {
 .about-section {
   justify-content: space-between;
   margin-top: 1em;
-  border-top: 1px solid #7b4ae2;
-  max-width: 70%;
+  max-width: 60%;
 }
 
+/* exp. */
+
 .container-about {
-  width: 200px;
-  height: 150px;
+  margin: 0;
+  width: 180px;
+  height: 160px;
   border-radius: 1rem;
   border: 1px solid rgba(123, 74, 226, 0.2);
   text-align: center;
   justify-content: center;
   padding: 0.5em;
-  margin-top: 10%;
+  margin-top: 5%;
   cursor: pointer;
 }
 
@@ -228,17 +234,71 @@ nav ul li:hover {
 }
 
 .section-about {
+  font-size: 12px;
   margin-top: 1em;
   border-radius: 1em;
   background-color: rgba(123, 74, 226, 0.2);
   border: 1px solid rgba(123, 74, 226, 0.2);
-  max-width: 70%;
+  max-width: 60%;
   height: 70px;
+  justify-content: space-between;
 }
 
 .section-container {
-  width: 200px;
+  color: #7b4ae2;
+  width: 180px;
   text-align: center;
   flex-direction: column;
+  text-align: center;
+  justify-content: center;
   line-height: 0;
+  margin: 0;
+}
+
+.title-exp {
+  margin-top: 5%;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* profile-section-pic */
+
+.my-about-profile {
+  margin-top: 5em;
+}
+
+.my-pic-profile {
+  margin-left: 8%;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.pic-profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 5%;
+}
+
+.my-informations {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  text-align: justify;
+  margin-right: 8%;
+  margin-left: 13%;
+}
+
+.my-informations h2 {
+  color: #fff;
+  font-size: 32px;
+  margin: 0;
+  line-height: 0;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.about-me {
+  font-size: 16px;
 }
