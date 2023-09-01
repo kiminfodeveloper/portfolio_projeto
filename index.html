@@ -5,12 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfólio</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- navbar -->
-    <nav class="flex">
+    <nav class="flex horz">
       <div class="logo-container flex">
-        <img src="./img/codigo.png" alt="KIMINFOTEC" />
+        <!-- logo svg -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="37"
+          height="40"
+          viewBox="0 0 37 40"
+          fill="none"
+        >
+          <path
+            d="M0.834344 21.3482L5.01425 17.8543C5.98291 17.0448 7.40667 17.1958 8.19403 18.1913C8.98176 19.1872 8.83486 20.6509 7.8662 21.4604L5.84341 23.1512L20.5299 35.8732C21.4985 36.6827 21.6454 38.1464 20.8577 39.1419C20.4111 39.7071 19.7595 40 19.1028 40C18.6018 40 18.0971 39.8296 17.6783 39.4793L0.834344 24.9542C0.306723 24.513 0 23.8507 0 23.1512C0 22.4516 0.306723 21.7898 0.834344 21.3482Z"
+            fill="white"
+          />
+          <path
+            d="M19.3954 7.32817e-05C20.5953 0.00996334 21.5606 1.018 21.551 2.25197L21.3641 37.7835C21.3545 39.0175 20.3737 40.0095 19.1737 39.9996C18.8696 39.9974 18.581 39.9308 18.319 39.8129C17.5476 39.4648 17.0107 38.6694 17.0178 37.7478L17.205 2.21659C17.2146 0.982613 18.1951 -0.00981677 19.3954 7.32817e-05Z"
+            fill="white"
+          />
+          <path
+            d="M28.9344 24.4414L30.478 23.1512L24.9798 18.555C24.0111 17.7455 23.8646 16.2818 24.652 15.2863C25.4394 14.2901 26.8631 14.1394 27.8318 14.9489L35.4867 21.3481C36.0147 21.7898 36.3211 22.4516 36.3211 23.1512C36.3211 23.8507 36.0147 24.513 35.4867 24.9542L31.7863 28.0475C31.3671 28.3979 30.8628 28.5683 30.3618 28.5683C29.7047 28.5683 29.0531 28.2754 28.6066 27.7105C27.8192 26.7146 27.9661 25.2513 28.9344 24.4414Z"
+            fill="#7B4AE2"
+          />
+        </svg>
       </div>
       <ul class="flex">
         <a href="#home"><li>Home</li></a>
@@ -30,20 +56,12 @@
         </div>
         <div class="my-name">
           <p>
-            Kevyn <br />
-            Melo
+            Henrique <br />
+            Sousa
           </p>
         </div>
-        <p class="my-description">
-          Desenvolvedor Front-End & <br />
-          Designer Gráfico
-        </p>
+        <p class="my-description">Front-end developer · UI designer</p>
         <div class="git-other flex">
-          <a
-            target="_blank"
-            href="https://github.com/kiminfodeveloper?tab=repositories"
-            ><img class="icons-greetings" src="./img/github.png" alt="github"
-          /></a>
           <a
             target="_blank"
             href="https://www.linkedin.com/in/kevyn-melo-6b99b4176/"
@@ -53,44 +71,51 @@
               alt="linkedin"
             />
           </a>
+          <a
+            target="_blank"
+            href="https://github.com/kiminfodeveloper?tab=repositories"
+            ><img class="icons-greetings" src="./img/github.png" alt="github"
+          /></a>
+          <a
+            target="_blank"
+            href="https://github.com/kiminfodeveloper?tab=repositories"
+            ><img class="icons-greetings" src="./img/behance.png" alt="github"
+          /></a>
         </div>
       </div>
       <div id="home" class="my-avatar flex">
-        <img class="html icons" src="./img/html.png" alt="html" />
-        <img class="css icons" src="./img/css-3.png" alt="css" />
-        <img class="js icons" src="./img/script-java.png" alt="javascript" />
-        <img
-          class="bootstrap icons"
-          src="./img/bootstrap.png"
-          alt="bootstrap"
-        />
-        <img class="react icons" src="./img/react.png" alt="react" />
-        <img class="profile" src="./img/meuavatar2.png" alt="Kevyn" />
+        <img class="circle-purple" src="./img/circle-purple.png" alt="circle" />
+        <img class="ts" src="./img/Icons.png" alt="javascript" />
+        <img class="profile" src="./img/newicon.png" alt="profile" />
       </div>
-      <div class="cv-contact vert">
-        <a href="./cv/kevynmelo.pdf"
-          ><div>
-            <p>
-              Baixar CV
+      <div class="contact-container flex">
+        <div class="cv-contact vert">
+          <a href="./cv/kevynmelo.pdf"
+            ><div>
+              <p>
+                Baixar CV
+                <img
+                  class="icon"
+                  src="./img/download-direto.png"
+                  alt="download"
+                />
+              </p>
+            </div>
+          </a>
+          <a
+            class="my-wpp"
+            target="_blank"
+            href="https://wa.me/5512981523401?text=Ol%C3%A1%2C%20estou%20querendo%20saber%20mais%20sobre%20o%20seus%20projetos%20front-end."
+            ><div class="whatsapp-contact flex">
               <img
-                class="icon"
-                src="./img/download-direto.png"
-                alt="download"
+                class="icon-wpp flex vert"
+                src="./img/whatsapp.png"
+                alt="whatsapp"
               />
-            </p>
-          </div>
-        </a>
-        <a
-          class="my-wpp"
-          target="_blank"
-          href="https://wa.me/5512981523401?text=Ol%C3%A1%2C%20estou%20querendo%20saber%20mais%20sobre%20o%20seus%20projetos%20front-end."
-          ><div class="whatsapp-contact flex">
-            <p>
-              <img class="icon" src="./img/whatsapp.png" alt="whatsapp" />
-              Vamos conversar
-            </p>
-          </div>
-        </a>
+              <p class="wpp-text">Vamos conversar</p>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
     <!-- border -->
@@ -98,19 +123,19 @@
     <!-- works -->
     <div id="about" class="about-section flex horz">
       <div class="container-about horz">
-        <div><img class="icons" src="./img/react.png" alt="código" /></div>
-        <div><p>1 ano como</p></div>
-        <div><h3>Programador</h3></div>
+        <img class="icons" src="./img/codigo.png" alt="código" />
+        <p class="experience">3 anos como</p>
+        <h3 class="experience-tag">Programador</h3>
       </div>
       <div class="container-about horz">
-        <div><img class="icons" src="./img/react.png" alt="código" /></div>
-        <div><p>1 ano como</p></div>
-        <div><h3>Programador</h3></div>
+        <img class="icons" src="./img/ProjectsIcon.png" alt="código" />
+        <p class="experience">7 anos de</p>
+        <h3 class="experience-tag">Trabalhos</h3>
       </div>
       <div class="container-about horz">
-        <div><img class="icons" src="./img/react.png" alt="código" /></div>
-        <div><p>1 ano como</p></div>
-        <div><h3>Programador</h3></div>
+        <img class="icons" src="./img/DesignIcon.svg" alt="código" />
+        <p class="experience">4 anos como</p>
+        <h3 class="experience-tag">Designer</h3>
       </div>
     </div>
     <!-- exp -->
@@ -132,35 +157,30 @@
     <div class="border"></div>
     <div class="my-about-profile flex">
       <div class="my-pic-profile">
-        <img class="pic-profile" src="./img/kevyn.jpeg" alt="Kevyn" />
+        <img class="pic-profile" src="./img/teste.png" alt="Kevyn" />
       </div>
       <div class="my-informations">
         <div class="greetings-content flex">
           <p class="greetings about-me">🧐 Sobre Mim</p>
         </div>
-        <h2>Kevyn Iago Melo</h2>
+        <h2>
+          Washington Henrique <br />
+          Fernandes de Sousa
+        </h2>
         <br />
-        <p>
-          👋 Me chamo Kevyn Iago de Melo, mas pode me chamar apenas de Kevyn.
-          Prazer!
+        <p class="my-journey">
+          <span class="emojis">👋</span> Me chamo Washington Henrique Fernandes de Sousa, mas pode me chamar apenas de Henrique. Prazer!
+          <br>
+          <br>
+          <span class="emojis">👨‍💻</span> Há mais de 2 anos desenvolvendo e programando interfaces com JavaScript, React JS e Typescript.
+          <br>
+          <span class="emojis">🎓</span> Graduado em Análise e Desenvolvimento de Sistemas pela Fatec de São José dos Campos
+          <br>
+          <span class="emojis">💡</span> Interesses em desenvolvimento Front-end com React, React Native, VueJS e UX/UI Design.
+          <br>
+          <br>
+          <span class="emojis">🚀</span> Tentando ser um pouquinho melhor do que ontem todos dias.
         </p>
-        <br />
-        <p>
-          👨‍💻 Há mais de 1 ano desenvolvendo e programando interfaces com
-          JavaScript, React JS e Typescript.
-        </p>
-        <p>
-          🎓 Estudante de Ciência da Computação na Universidade Cruzeiro do Sul
-          (UNICID).
-        </p>
-        <p>
-          💡 Interesses em desenvolvimento Front-end com React, HTML, CSS,
-          JavaScript, TypeScript, Bootstrap.
-        </p>
-        <br />
-        <p>
-          🚀 Buscando evoluir todos os dias, buscando qualificação com cursos e
-          graduação.
         </p>
       </div>
     </div>

@@ -2,7 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: Helvetica, sans-serif;
+  font-family: "Raleway", sans-serif;
   background-color: #090e16;
   color: #fff;
 }
@@ -10,7 +10,7 @@ body {
 /* border geral */
 .border {
   border-top: 1px solid #7b4ae2;
-  margin-top: 5%;
+  margin-top: 6.25rem;
 }
 /* link geral */
 a {
@@ -33,26 +33,30 @@ a {
   display: flex;
 }
 
+.greetings-info,
+.my-avatar,
+.contact-container {
+  flex: 1;
+}
 /* navbar */
 nav {
+  font-size: 1.125rem;
   width: 85%;
-  height: 50px;
+  height: 64px;
   margin-top: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgba(123, 74, 226, 0.3);
-  border-radius: 2em;
+  background-color: rgba(123, 74, 226, 0.05);
+  border-radius: 16px;
   justify-content: space-between;
   align-items: center;
 }
 
 nav ul {
   list-style: none;
-  margin: 0 1em;
+  margin: 0 1rem;
 }
 nav ul li {
-  color: rgba(255, 255, 255, 0.1);
-  margin: 0 0.4em;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 1rem;
 }
 
 nav ul li:hover {
@@ -62,19 +66,9 @@ nav ul li:hover {
 .logo-container {
   width: 50px;
   height: 50px;
-  margin: 0 1em;
+  margin: 0 1rem;
   justify-content: center;
   align-items: center;
-}
-.logo-container img {
-  width: 35px;
-  height: 35px;
-  cursor: pointer;
-}
-
-.logo-container img:hover {
-  width: 40px;
-  height: 40px;
 }
 
 /* conteudo pricipal */
@@ -85,54 +79,35 @@ nav ul li:hover {
 
 /* conteudo principal destaque */
 .my-avatar {
-  background-color: rgba(123, 74, 226, 0.2);
-  border-radius: 50%;
-  margin-top: 1em;
-  width: 500px;
-  height: 500px;
+  margin-top: 8%;
+  width: 510px;
+  height: 510px;
   align-items: center;
   justify-content: center;
-  box-shadow: 0px 0px 10px rgba(95, 4, 155, 0.5);
 }
-
+.circle-purple {
+  width: 510px;
+  height: 510px;
+  border-radius: 50%;
+  filter: blur(5px);
+  background-color: rgba(123, 74, 226, 0.2);
+  position: absolute;
+}
 /* icones fundo */
 .icons {
-  position: relative;
-  width: 60px;
-  height: 60px;
+  margin-top: 2.6rem;
+  width: 72px;
+  height: 64px;
 }
 
-.js {
-  top: 0%;
-  left: 50%;
-}
-
-.react {
-  top: -30%;
-  left: 15%;
-}
-
-.bootstrap {
-  top: -30%;
-  left: -50%;
-}
-
-.html {
-  top: 10%;
-  left: -25%;
-}
-
-.css {
-  top: -10%;
-  left: -37%;
+.ts {
+  position: absolute;
 }
 
 /* foto */
 
 .profile {
   position: absolute;
-  width: 500px;
-  height: 500px;
   border-radius: 25%;
 }
 
@@ -143,14 +118,16 @@ nav ul li:hover {
 }
 
 .greetings-content {
-  width: 125px;
-  height: 35px;
-  background-color: #14142b;
-  border-radius: 1em;
+  width: 160px;
+  height: 45px;
+  background-color: rgba(123, 74, 226, 0.1);
+  border-radius: 1rem;
   text-align: center;
 }
 
 .greetings {
+  font-size: 1.25rem;
+  font-weight: 700;
   margin: auto;
   color: #7b4ae2;
   font-weight: bold;
@@ -170,7 +147,7 @@ nav ul li:hover {
 
 .my-description {
   margin-top: 2em;
-  font-size: 14px;
+  font-size: 1.25rem;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.3);
 }
@@ -178,18 +155,21 @@ nav ul li:hover {
 .icons-greetings {
   width: 32px;
   height: 32px;
-  margin-right: 1em;
+  margin-right: 1rem;
 }
 
 /* etapa do cv */
-.cv-contact {
-  text-align: right;
+.contact-container {
+  justify-content: right;
+  padding: 0;
   margin-right: 8%;
+  text-align: right;
 }
 
 .cv-contact p {
-  color: rgba(123, 74, 226, 0.3);
-  font-size: 15px;
+  color: rgba(123, 74, 226, 0.5);
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .icon {
@@ -199,33 +179,41 @@ nav ul li:hover {
 
 .whatsapp-contact {
   justify-content: center;
-  width: 160px;
-  border-radius: 1em;
-  border: 1px solid #7b4ae2;
+  margin-left: 0.5rem;
+  width: 12.25rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(123, 74, 226, 0.5);
 }
-
+.icon-wpp {
+  width: 24px;
+  height: 24px;
+}
+.wpp-text {
+  margin-left: 0.5rem;
+}
 .my-wpp {
   color: rgba(123, 74, 226, 0.3);
 }
 
-.about-section {
-  justify-content: space-between;
-  margin-top: 1em;
-  max-width: 60%;
-}
-
 /* exp. */
 
+.about-section {
+  justify-content: space-between;
+  margin-top: 1rem;
+  max-width: 50%;
+}
+
 .container-about {
+  line-height: 0;
   margin: 0;
-  width: 180px;
-  height: 160px;
+  width: 250px;
+  height: 200px;
   border-radius: 1rem;
   border: 1px solid rgba(123, 74, 226, 0.2);
   text-align: center;
   justify-content: center;
   padding: 0.5em;
-  margin-top: 5%;
+  margin-top: 6.25rem;
   cursor: pointer;
 }
 
@@ -233,20 +221,28 @@ nav ul li:hover {
   background-color: rgba(123, 74, 226, 0.2);
 }
 
+.experience {
+  font-size: 1rem;
+}
+
+.experience-tag {
+  font-size: 2.3rem;
+}
+
 .section-about {
-  font-size: 12px;
-  margin-top: 1em;
-  border-radius: 1em;
+  font-size: 1rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
   background-color: rgba(123, 74, 226, 0.2);
   border: 1px solid rgba(123, 74, 226, 0.2);
-  max-width: 60%;
-  height: 70px;
+  max-width: 50%;
+  height: 6.87rem;
   justify-content: space-between;
 }
 
 .section-container {
   color: #7b4ae2;
-  width: 180px;
+  width: 250px;
   text-align: center;
   flex-direction: column;
   text-align: center;
@@ -257,7 +253,7 @@ nav ul li:hover {
 
 .title-exp {
   margin-top: 5%;
-  font-size: 24px;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -269,36 +265,42 @@ nav ul li:hover {
 
 .my-pic-profile {
   margin-left: 8%;
-  width: 300px;
-  height: 300px;
+  width: 460px;
+  height: 460px;
   background-color: #fff;
   border-radius: 50%;
 }
 
 .pic-profile {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  margin-top: 5%;
+  width: 460px;
+  height: 460px;
+  margin-top: 10%;
 }
 
 .my-informations {
   color: rgba(255, 255, 255, 0.7);
-  font-size: 13px;
   text-align: justify;
-  margin-right: 8%;
+  margin-right: 1%;
   margin-left: 13%;
 }
 
 .my-informations h2 {
   color: #fff;
-  font-size: 32px;
+  font-size: 3rem;
   margin: 0;
-  line-height: 0;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-top: 0.5rem;
 }
 
 .about-me {
-  font-size: 16px;
+  font-size: 1.25rem;
+}
+
+.my-journey {
+  font-size: 1.2rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.8rem;
+}
+
+.emojis {
+  color: #fff;
 }
