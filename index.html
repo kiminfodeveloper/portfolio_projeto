@@ -14,7 +14,7 @@
   </head>
   <body>
     <!-- navbar -->
-    <nav class="flex horz">
+    <nav class="hidden flex horz">
       <div class="logo-container flex">
         <!-- logo svg -->
         <svg
@@ -50,6 +50,29 @@
     </nav>
     <!-- primary-content -->
     <div class="content-home flex">
+      <!-- visible-off-in-desktop -->
+      <div class="git-other horz informations-git-hidden">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/kevyn-melo-6b99b4176/"
+          ><img
+            class="icons-greetings"
+            src="./img/linkedin.png"
+            alt="linkedin"
+          />
+        </a>
+        <a
+          target="_blank"
+          href="https://github.com/kiminfodeveloper?tab=repositories"
+          ><img class="icons-greetings" src="./img/github.png" alt="github"
+        /></a>
+        <a
+          target="_blank"
+          href="https://github.com/kiminfodeveloper?tab=repositories"
+          ><img class="icons-greetings" src="./img/behance.png" alt="github"
+        /></a>
+        <!-- content home-desktop -->
+      </div>
       <div class="greetings-info vert">
         <div class="greetings-content flex">
           <p class="greetings">👋 Saudações!</p>
@@ -61,7 +84,7 @@
           </p>
         </div>
         <p class="my-description">Front-end developer · UI designer</p>
-        <div class="git-other flex">
+        <div class="git-other flex hidden ">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/kevyn-melo-6b99b4176/"
@@ -84,9 +107,7 @@
         </div>
       </div>
       <div id="home" class="my-avatar flex">
-        <img class="circle-purple" src="./img/circle-purple.png" alt="circle" />
-        <img class="ts" src="./img/Icons.png" alt="javascript" />
-        <img class="profile" src="./img/newicon.png" alt="profile" />
+        <img class="profile" src="./img/avatar-high.svg" alt="profile" />
       </div>
       <div class="contact-container flex">
         <div class="cv-contact vert">
@@ -165,7 +186,7 @@
         </div>
         <h2>
           Washington Henrique <br />
-          Fernandes de Sousa
+          <div class="hidden">Fernandes de Sousa</div>
         </h2>
         <br />
         <p class="my-journey">
@@ -184,6 +205,131 @@
         </p>
       </div>
     </div>
-    <div class="border"></div>
+    <div class="main-portfolio horz flex">
+      <div class="portfolio">
+        <div class="about-portfolio">
+          <div class="greetings-content flex">
+            <p class="greetings about-me">🔗 Portfólio</p>
+            <br>
+          </div>
+          <h2>Trabalhos e projetos</h2>
+        </div>
+      </div>
+      <div class="scroll-mobile">
+        <div class="buttons-main-container flex">
+          <div class="buttons-back-port flex"> <img class="btn-img vert horz" src="./img/DesignIcon.svg" alt="código"> <p class="buttons-port">UI Design</p></div>
+          <div class="buttons-back-port flex"> <img class="btn-img vert horz" src="./img/brushpaint.svg" alt="projeto"> <p class="buttons-port">Design</p></div>
+          <div class="buttons-back-port flex"> <img class="btn-img vert horz" src="./img/DesignIcon.svg" alt="design"> <p class="buttons-port">UI Design</p></div>
+        </div>
+      </div> 
+    </div>
+    <div class="main-projects horz">
+      <div class="row-projects flex">
+        <div class="card-project">
+          <p class="project-title">Move.it</p>
+          <p class="project-description">Aplicação da NLW#04 da 
+            Rocketseat. Desenvolvida 
+            com React. Plataforma de 
+            Pomodoro com exercícios.
+          </p>
+          <div class="status-card flex">
+            <p class="status-online">Online</p>
+            <p class="status-typescript">Typescript</p>
+          </div>
+          <img class="card-img" src="./img/image.svg" alt="project">
+        </div>
+        <div class="card-project">
+          <p class="project-title">Move.it</p>
+          <p class="project-description">Aplicação da NLW#04 da 
+            Rocketseat. Desenvolvida 
+            com React. Plataforma de 
+            Pomodoro com exercícios.
+          </p>
+          <div class="status-card flex">
+            <p class="status-react">React JS</p>
+            <p class="status-typescript">Typescript</p>
+          </div>
+          <img class="card-img" src="./img/image.svg" alt="project">
+        </div>
+        <div class="card-project">
+          <p class="project-title">Move.it</p>
+          <p class="project-description">Aplicação da NLW#04 da 
+            Rocketseat. Desenvolvida 
+            com React. Plataforma de 
+            Pomodoro com exercícios.
+          </p>
+          <div class="status-card flex">
+            <p class="status-react">React JS</p>
+            <p class="status-typescript">Typescript</p>
+          </div>
+          <img class="card-img" src="./img/image.svg" alt="project">
+        </div>
+        <div class="card-project">
+          <p class="project-title">Move.it</p>
+          <p class="project-description">Aplicação da NLW#04 da 
+            Rocketseat. Desenvolvida 
+            com React. Plataforma de 
+            Pomodoro com exercícios.
+          </p>
+          <div class="status-card flex">
+            <p class="status-react">React JS</p>
+            <p class="status-typescript">Typescript</p>
+          </div>
+          <img class="card-img" src="./img/image.svg" alt="project">
+        </div>
+        <div class="card-project">
+          <p class="project-title">Move.it</p>
+          <p class="project-description">Aplicação da NLW#04 da 
+            Rocketseat. Desenvolvida 
+            com React. Plataforma de 
+            Pomodoro com exercícios.
+          </p>
+          <div class="status-card flex">
+            <p class="status-react">React JS</p>
+            <p class="status-typescript">Typescript</p>
+          </div>
+          <img class="card-img" src="./img/image.svg" alt="project">
+        </div>
+        <div class="card-project">
+          <p class="project-title">Move.it</p>
+          <p class="project-description">Aplicação da NLW#04 da 
+            Rocketseat. Desenvolvida 
+            com React. Plataforma de 
+            Pomodoro com exercícios.
+          </p>
+          <div class="status-card flex">
+            <p class="status-react">React JS</p>
+            <p class="status-typescript">Typescript</p>
+          </div>
+          <img class="card-img" src="./img/image.svg" alt="project">
+        </div>
+        <div class="card-project">
+          <p class="project-title">Move.it</p>
+          <p class="project-description">Aplicação da NLW#04 da 
+            Rocketseat. Desenvolvida 
+            com React. Plataforma de 
+            Pomodoro com exercícios.
+          </p>
+          <div class="status-card flex">
+            <p class="status-react">React JS</p>
+            <p class="status-typescript">Typescript</p>
+          </div>
+          <img class="card-img" src="./img/image.svg" alt="project">
+        </div>
+        <div class="card-project">
+          <p class="project-title">Move.it</p>
+          <p class="project-description">Aplicação da NLW#04 da 
+            Rocketseat. Desenvolvida 
+            com React. Plataforma de 
+            Pomodoro com exercícios.
+          </p>
+          <div class="status-card flex">
+            <p class="status-react">React JS</p>
+            <p class="status-typescript">Typescript</p>
+          </div>
+          <img class="card-img" src="./img/image.svg" alt="project">
+        </div> 
+      </div>
+    </div>
   </body>
 </html>
