@@ -894,6 +894,7 @@ nav ul li:hover {
   }
 
   .scroll-mobile {
+    gap: 3rem;
     display: flex;
     overflow-x: auto;
   }
