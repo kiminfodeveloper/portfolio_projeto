@@ -41,16 +41,16 @@
       <ul class="flex">
         <a href="#home"><li>Home</li></a>
         <a href="#about"><li>Sobre Mim</li></a>
-        <a href=""><li>Portfólio</li></a>
-        <a href=""><li>Skills</li></a>
-        <a href=""><li>Carreira</li></a>
-        <a href=""><li>Recomendações</li></a>
-        <a href=""><li>Contato</li></a>
+        <a href="#portfolio"><li>Portfólio</li></a>
+        <a href="#skill"><li>Skills</li></a>
+        <a href="#academic"><li>Carreira</li></a>
+        <a href="#comment"><li>Recomendações</li></a>
+        <a href="#contact"><li>Contato</li></a>
       </ul>
     </nav>
-    <!-- primary-content -->
+    <!-- inicio -->
     <div class="content-home flex">
-      <!-- visible-off-in-desktop -->
+      <!-- visivel apenas no mobile -->
       <div class="git-other horz informations-git-hidden">
         <a
           target="_blank"
@@ -71,7 +71,7 @@
           href="https://github.com/kiminfodeveloper?tab=repositories"
           ><img class="icons-greetings" src="./img/behance.png" alt="github"
         /></a>
-        <!-- content home-desktop -->
+        <!-- home -->
       </div>
       <div class="greetings-info vert">
         <div class="greetings-content flex">
@@ -84,7 +84,7 @@
           </p>
         </div>
         <p class="my-description">Front-end developer · UI designer</p>
-        <div class="git-other flex hidden ">
+        <div class="git-other flex hidden">
           <a
             target="_blank"
             href="https://www.linkedin.com/in/kevyn-melo-6b99b4176/"
@@ -124,7 +124,6 @@
             </div>
           </a>
           <a
-            class="my-wpp"
             target="_blank"
             href="https://wa.me/5512981523401?text=Ol%C3%A1%2C%20estou%20querendo%20saber%20mais%20sobre%20o%20seus%20projetos%20front-end."
             ><div class="whatsapp-contact flex">
@@ -139,9 +138,9 @@
         </div>
       </div>
     </div>
-    <!-- border -->
+    <!-- borda divisória -->
     <div class="border"></div>
-    <!-- works -->
+    <!-- sobre mim -->
     <div id="about" class="about-section flex horz">
       <div class="container-about horz">
         <img class="icons" src="./img/codigo.png" alt="código" />
@@ -159,8 +158,8 @@
         <h3 class="experience-tag">Designer</h3>
       </div>
     </div>
-    <!-- exp -->
-    <div class="section-about flex horz">
+    <!-- portfolio -->
+    <div id="portfolio" class="section-about flex horz">
       <div class="section-container horz flex">
         <p>Desenvolvedor</p>
         <p class="title-exp">Front-end</p>
@@ -174,7 +173,6 @@
         <p class="title-exp">UI - UX</p>
       </div>
     </div>
-    <!-- my-profile-content -->
     <div class="border"></div>
     <div class="my-about-profile flex">
       <div class="my-pic-profile">
@@ -190,146 +188,468 @@
         </h2>
         <br />
         <p class="my-journey">
-          <span class="emojis">👋</span> Me chamo Washington Henrique Fernandes de Sousa, mas pode me chamar apenas de Henrique. Prazer!
-          <br>
-          <br>
-          <span class="emojis">👨‍💻</span> Há mais de 2 anos desenvolvendo e programando interfaces com JavaScript, React JS e Typescript.
-          <br>
-          <span class="emojis">🎓</span> Graduado em Análise e Desenvolvimento de Sistemas pela Fatec de São José dos Campos
-          <br>
-          <span class="emojis">💡</span> Interesses em desenvolvimento Front-end com React, React Native, VueJS e UX/UI Design.
-          <br>
-          <br>
-          <span class="emojis">🚀</span> Tentando ser um pouquinho melhor do que ontem todos dias.
-        </p>
+          <span class="emojis">👋</span> Me chamo Washington Henrique Fernandes
+          de Sousa, mas pode me chamar apenas de Henrique. Prazer!
+          <br />
+          <br />
+          <span class="emojis">👨‍💻</span> Há mais de 2 anos desenvolvendo e
+          programando interfaces com JavaScript, React JS e Typescript.
+          <br />
+          <span class="emojis">🎓</span> Graduado em Análise e Desenvolvimento
+          de Sistemas pela Fatec de São José dos Campos
+          <br />
+          <span class="emojis">💡</span> Interesses em desenvolvimento Front-end
+          com React, React Native, VueJS e UX/UI Design.
+          <br />
+          <br />
+          <span class="emojis">🚀</span> Tentando ser um pouquinho melhor do que
+          ontem todos dias.
         </p>
       </div>
     </div>
+    <!-- projetos -->
     <div class="main-portfolio horz flex">
       <div class="portfolio">
         <div class="about-portfolio">
           <div class="greetings-content flex">
             <p class="greetings about-me">🔗 Portfólio</p>
-            <br>
+            <br />
           </div>
           <h2>Trabalhos e projetos</h2>
         </div>
       </div>
       <div class="scroll-mobile">
         <div class="buttons-main-container flex">
-          <div class="buttons-back-port flex"> <img class="btn-img vert horz" src="./img/DesignIcon.svg" alt="código"> <p class="buttons-port">UI Design</p></div>
-          <div class="buttons-back-port flex"> <img class="btn-img vert horz" src="./img/brushpaint.svg" alt="projeto"> <p class="buttons-port">Design</p></div>
-          <div class="buttons-back-port flex"> <img class="btn-img vert horz" src="./img/DesignIcon.svg" alt="design"> <p class="buttons-port">UI Design</p></div>
+          <div class="buttons-back-port flex">
+            <img
+              class="btn-img vert horz"
+              src="./img/DesignIcon.svg"
+              alt="código"
+            />
+            <p class="buttons-port">UI Design</p>
+          </div>
+          <div class="buttons-back-port flex">
+            <img
+              class="btn-img vert horz"
+              src="./img/brushpaint.svg"
+              alt="projeto"
+            />
+            <p class="buttons-port">Design</p>
+          </div>
+          <div class="buttons-back-port flex">
+            <img
+              class="btn-img vert horz"
+              src="./img/DesignIcon.svg"
+              alt="design"
+            />
+            <p class="buttons-port">UI Design</p>
+          </div>
         </div>
-      </div> 
+      </div>
     </div>
     <div class="main-projects horz">
       <div class="row-projects flex">
         <div class="card-project">
           <p class="project-title">Move.it</p>
-          <p class="project-description">Aplicação da NLW#04 da 
-            Rocketseat. Desenvolvida 
-            com React. Plataforma de 
-            Pomodoro com exercícios.
+          <p class="project-description">
+            Aplicação da NLW#04 da Rocketseat. Desenvolvida com React.
+            Plataforma de Pomodoro com exercícios.
           </p>
           <div class="status-card flex">
             <p class="status-online">Online</p>
             <p class="status-typescript">Typescript</p>
           </div>
-          <img class="card-img" src="./img/image.svg" alt="project">
+          <img class="card-img" src="./img/image.svg" alt="project" />
         </div>
         <div class="card-project">
           <p class="project-title">Move.it</p>
-          <p class="project-description">Aplicação da NLW#04 da 
-            Rocketseat. Desenvolvida 
-            com React. Plataforma de 
-            Pomodoro com exercícios.
+          <p class="project-description">
+            Aplicação da NLW#04 da Rocketseat. Desenvolvida com React.
+            Plataforma de Pomodoro com exercícios.
           </p>
           <div class="status-card flex">
             <p class="status-react">React JS</p>
             <p class="status-typescript">Typescript</p>
           </div>
-          <img class="card-img" src="./img/image.svg" alt="project">
+          <img class="card-img" src="./img/image.svg" alt="project" />
         </div>
         <div class="card-project">
           <p class="project-title">Move.it</p>
-          <p class="project-description">Aplicação da NLW#04 da 
-            Rocketseat. Desenvolvida 
-            com React. Plataforma de 
-            Pomodoro com exercícios.
+          <p class="project-description">
+            Aplicação da NLW#04 da Rocketseat. Desenvolvida com React.
+            Plataforma de Pomodoro com exercícios.
           </p>
           <div class="status-card flex">
             <p class="status-react">React JS</p>
             <p class="status-typescript">Typescript</p>
           </div>
-          <img class="card-img" src="./img/image.svg" alt="project">
+          <img class="card-img" src="./img/image.svg" alt="project" />
         </div>
         <div class="card-project">
           <p class="project-title">Move.it</p>
-          <p class="project-description">Aplicação da NLW#04 da 
-            Rocketseat. Desenvolvida 
-            com React. Plataforma de 
-            Pomodoro com exercícios.
+          <p class="project-description">
+            Aplicação da NLW#04 da Rocketseat. Desenvolvida com React.
+            Plataforma de Pomodoro com exercícios.
           </p>
           <div class="status-card flex">
             <p class="status-react">React JS</p>
             <p class="status-typescript">Typescript</p>
           </div>
-          <img class="card-img" src="./img/image.svg" alt="project">
+          <img class="card-img" src="./img/image.svg" alt="project" />
         </div>
         <div class="card-project">
           <p class="project-title">Move.it</p>
-          <p class="project-description">Aplicação da NLW#04 da 
-            Rocketseat. Desenvolvida 
-            com React. Plataforma de 
-            Pomodoro com exercícios.
+          <p class="project-description">
+            Aplicação da NLW#04 da Rocketseat. Desenvolvida com React.
+            Plataforma de Pomodoro com exercícios.
           </p>
           <div class="status-card flex">
             <p class="status-react">React JS</p>
             <p class="status-typescript">Typescript</p>
           </div>
-          <img class="card-img" src="./img/image.svg" alt="project">
+          <img class="card-img" src="./img/image.svg" alt="project" />
         </div>
         <div class="card-project">
           <p class="project-title">Move.it</p>
-          <p class="project-description">Aplicação da NLW#04 da 
-            Rocketseat. Desenvolvida 
-            com React. Plataforma de 
-            Pomodoro com exercícios.
+          <p class="project-description">
+            Aplicação da NLW#04 da Rocketseat. Desenvolvida com React.
+            Plataforma de Pomodoro com exercícios.
           </p>
           <div class="status-card flex">
             <p class="status-react">React JS</p>
             <p class="status-typescript">Typescript</p>
           </div>
-          <img class="card-img" src="./img/image.svg" alt="project">
+          <img class="card-img" src="./img/image.svg" alt="project" />
         </div>
         <div class="card-project">
           <p class="project-title">Move.it</p>
-          <p class="project-description">Aplicação da NLW#04 da 
-            Rocketseat. Desenvolvida 
-            com React. Plataforma de 
-            Pomodoro com exercícios.
+          <p class="project-description">
+            Aplicação da NLW#04 da Rocketseat. Desenvolvida com React.
+            Plataforma de Pomodoro com exercícios.
           </p>
           <div class="status-card flex">
             <p class="status-react">React JS</p>
             <p class="status-typescript">Typescript</p>
           </div>
-          <img class="card-img" src="./img/image.svg" alt="project">
+          <img class="card-img" src="./img/image.svg" alt="project" />
         </div>
         <div class="card-project">
           <p class="project-title">Move.it</p>
-          <p class="project-description">Aplicação da NLW#04 da 
-            Rocketseat. Desenvolvida 
-            com React. Plataforma de 
-            Pomodoro com exercícios.
+          <p class="project-description">
+            Aplicação da NLW#04 da Rocketseat. Desenvolvida com React.
+            Plataforma de Pomodoro com exercícios.
           </p>
           <div class="status-card flex">
             <p class="status-react">React JS</p>
             <p class="status-typescript">Typescript</p>
           </div>
-          <img class="card-img" src="./img/image.svg" alt="project">
-        </div> 
+          <img class="card-img" src="./img/image.svg" alt="project" />
+        </div>
+      </div>
+      <!-- portfolio video -->
+      <div>
+        <div class="about-portfolio">
+          <h2 class="title-movie-edition">Trabalhos e projetos</h2>
+          <p class="description-movie-edition">
+            Sempre é bom saber um pouquinho de edição
+          </p>
+        </div>
+      </div>
+      <div class="scroll-video flex">
+        <div class="card-video-project">
+          <img class="img-video-project" src="./img/image2.svg" alt="projeto" />
+          <div>
+            <div class="flex">
+              <p class="project-title-video">Move.it</p>
+              <div class="status-division flex">
+                <p class="status-react-video">React JS</p>
+                <p class="status-react-video">React JS</p>
+              </div>
+            </div>
+            <div class="content-player-video flex">
+              <p class="description-movie-edition">Move.it</p>
+              <p class="description-movie-edition flex">
+                Assistir <img class="player" src="./img/Play.png" alt="Play" />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-video-project">
+          <img class="img-video-project" src="./img/image2.svg" alt="projeto" />
+          <div>
+            <div class="flex">
+              <p class="project-title-video">Move.it</p>
+              <div class="status-division flex">
+                <p class="status-react-video">React JS</p>
+                <p class="status-react-video">React JS</p>
+              </div>
+            </div>
+            <div class="content-player-video flex">
+              <p class="description-movie-edition">Move.it</p>
+              <p class="description-movie-edition flex">
+                Assistir <img class="player" src="./img/Play.png" alt="Play" />
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card-video-project">
+          <img class="img-video-project" src="./img/image2.svg" alt="projeto" />
+          <div>
+            <div class="flex">
+              <p class="project-title-video">Move.it</p>
+              <div class="status-division flex">
+                <p class="status-react-video">React JS</p>
+                <p class="status-react-video">React JS</p>
+              </div>
+            </div>
+            <div class="content-player-video flex">
+              <p class="description-movie-edition">Move.it</p>
+              <p class="description-movie-edition flex">
+                Assistir <img class="player" src="./img/Play.png" alt="Play" />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- skills -->
+      <div id="skill" class="skills-tec horz">
+        <div class="skills-content flex horz">
+          <p class="skill-text about-me">🧑‍💻 Skills · Experiências</p>
+        </div>
+        <h2>Trabalhos e habilidades</h2>
+        <p class="skills-text">Techs que uso no dia a dia</p>
+        <div class="scroll-mobile">
+          <img src="./img/WorkingTechs.svg" alt="workstechs" />
+        </div>
+        <p class="skills-text">Outras techs com que já realizei projetos</p>
+        <div class="scroll-mobile">
+          <img src="./img/ProjectsTechs.png" alt="projecttech" />
+        </div>
       </div>
     </div>
+    <!-- experiencia e vida academica -->
+    <div id="academic" class="main-academic-experience horz">
+      <div class="skills-content flex horz">
+        <p class="skill-text about-me">💼 Carreira</p>
+      </div>
+      <h2>Trajetória até aqui</h2>
+      <div class="experience-academic flex">
+        <div class="cards-professions-academic">
+          <h3>Área profissional</h3>
+          <p class="profession-academic-description">2016 · Atualmente</p>
+          <div class="scroll-mobile">
+            <div class="work-academic-card">
+              <p class="title-academic">Desenvolvedor Front-end na Ensinio</p>
+              <p class="about-academic">
+                Desenvolvimento de features na aplicação principal e site. com
+                React Js e Typescript, além do auxíllio de outras tecnologias
+                como Next, Styled Components e padrões de arquitetura.
+              </p>
+              <div class="date flex">
+                <p class="date-about">1 ano</p>
+                <p class="date-about">Abril/2021 · Atualmente</p>
+              </div>
+            </div>
+            <div class="work-academic-card">
+              <p class="title-academic">Designer na Viralizzi</p>
+              <p class="about-academic">
+                Disponibilizando serviços para mídias digitais na Viralizzi como
+                Designer.
+              </p>
+              <div class="date flex">
+                <p class="date-about">3 meses</p>
+                <p class="date-about">Janeiro/2021 · Abril/2021</p>
+              </div>
+            </div>
+            <div class="work-academic-card">
+              <p class="title-academic">
+                Instrutor de programação na SuperGeeks
+              </p>
+              <p class="about-academic">
+                Como instrutor de programação, cieência da computação e
+                desenvolvimento de jogos com crianças e adolescentes. Além de
+                suporte para criação de conteúdos e mídias digitais.
+              </p>
+              <div class="date flex">
+                <p class="date-about">1 ano e 11 meses</p>
+                <p class="date-about">Fevereiro/2019 · Janeiro/2021</p>
+              </div>
+            </div>
+            <div class="work-academic-card">
+              <p class="title-academic">
+                Designer, editor e suporte em hardwares na Alorean
+              </p>
+              <p class="about-academic">
+                Serviços freelancers de design, manutenção de hardwares, edições
+                de mídias digitais e gráficas para empresas e pessoas da região
+                de São José dos Campos e Jacareí pela marca própria “Alorean”.
+              </p>
+              <div class="date flex">
+                <p class="date-about">1 ano</p>
+                <p class="date-about">Janeiro/2020 · Janeiro/2021</p>
+              </div>
+            </div>
+            <div class="work-academic-card">
+              <p class="title-academic">Jovem aprendiz</p>
+              <p class="about-academic">
+                No fim de 2016 iniciei em fase de experiência, no inicio de 2017
+                já como Aprendiz atuando no setor de criação, desenvolvimento e
+                design. Suporte ao marketing digital da empresa e TI.
+              </p>
+              <div class="date flex">
+                <p class="date-about">1 ano e 3 meses</p>
+                <p class="date-about">Outubro/2016 · Dezembro/2017</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cards-professions-academic">
+          <h3>Acadêmica</h3>
+          <p class="profession-academic-description">2014 · Atualmente</p>
+          <div class="scroll-mobile">
+            <div class="work-academic-card">
+              <p class="title-academic">
+                Superior, Análise e Desenvolvimento de Sistemas
+              </p>
+              <p class="about-academic">
+                Recém graduado pela FATEC de São José dos Campos no curso de
+                Análise e Desenvolvimento de Sistemas.
+              </p>
+              <div class="date flex">
+                <p class="date-about">3 anos</p>
+                <p class="date-about">Agosto/2019 · Agosto/2022</p>
+              </div>
+            </div>
+            <div class="work-academic-card">
+              <p class="title-academic">Técnico, Redes de Computadores</p>
+              <p class="about-academic">
+                Desenvolvimento de features na aplicação principal e site. com
+                React Js e Typescript, além do auxíllio de outras tecnologias
+                como Next, Styled Components e padrões de arquitetura.
+              </p>
+              <div class="date flex">
+                <p class="date-about">1 ano e 6 meses</p>
+                <p class="date-about">Fevereio/2018 · Junho/2019</p>
+              </div>
+            </div>
+            <div class="work-academic-card">
+              <p class="title-academic">Inglês · Conversação avançada</p>
+              <p class="about-academic">
+                No segundo semestre de 2018 pude aprimorar meu nível de inglês
+                (Hoje: Avançado) com 6 meses de conversação avançada pelo
+                Instituto Federal de Jacareí (IFSP)
+              </p>
+              <div class="date flex">
+                <p class="date-about">6 meses</p>
+                <p class="date-about">Julho/2018 · Dezembro/2018</p>
+              </div>
+            </div>
+            <div class="work-academic-card">
+              <p class="title-academic">Ensinio médio completo</p>
+              <p class="about-academic">
+                Ao final de 2017 me formei no ensino médio na escola Amância
+                Dias Sampaio em Jacareí.
+              </p>
+              <div class="date flex">
+                <p class="date-about">6 meses</p>
+                <p class="date-about">Julho/2018 · Dezembro/2018</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- recomendacoes  -->
+    <div id="comment" class="comment-section horz">
+      <div class="comment-content flex">
+        <p class="comment-text about-me">💬 Recomendações</p>
+      </div>
+      <h2>Em depoimento</h2>
+      <div class="flex scroll-video">
+        <div class="comment-card">
+          <img src="./img/Quotes.svg" alt="quotes" />
+          <p class="about-comment">
+            O Washington está sempre estudando e aprendendo, buscando aprimorar
+            aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de
+            seus objetivos, com foco e organização. Além disso, tecnicamente, no
+            que se propõe a fazer, faz bem feito. Sempre!
+          </p>
+          <div class="profile-about-comment flex">
+            <img src="./img/image 3.svg" alt="profile" />
+            <div>
+              <p class="comment-name">Romário Lima</p>
+              <p class="job-comment">Engenheiro da Computação</p>
+            </div>
+          </div>
+        </div>
+        <div class="comment-card">
+          <img src="./img/Quotes.svg" alt="quotes" />
+          <p class="about-comment">
+            O Washington está sempre estudando e aprendendo, buscando aprimorar
+            aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de
+            seus objetivos, com foco e organização. Além disso, tecnicamente, no
+            que se propõe a fazer, faz bem feito. Sempre!
+          </p>
+          <div class="profile-about-comment flex">
+            <img src="./img/image 3.svg" alt="profile" />
+            <div>
+              <p class="comment-name">Romário Lima</p>
+              <p class="job-comment">Engenheiro da Computação</p>
+            </div>
+          </div>
+        </div>
+        <div class="comment-card">
+          <img src="./img/Quotes.svg" alt="quotes" />
+          <p class="about-comment">
+            O Washington está sempre estudando e aprendendo, buscando aprimorar
+            aquilo que faz. Esse é sua melhor qualidade. Está sempre em busca de
+            seus objetivos, com foco e organização. Além disso, tecnicamente, no
+            que se propõe a fazer, faz bem feito. Sempre!
+          </p>
+          <div class="profile-about-comment flex">
+            <img src="./img/image 3.svg" alt="profile" />
+            <div>
+              <p class="comment-name">Romário Lima</p>
+              <p class="job-comment">Engenheiro da Computação</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contato -->
+    <div id="contact" class="contact-us horz margin-horz-mobile">
+      <div class="contact-us-content margin-horz-mobile horz flex">
+        <p class="comment-text about-me">📬 Contatos</p>
+      </div>
+      <h2>Vamos conversar!</h2>
+      <div class="contact-align horz margin-horz-mobile flex">
+        <a
+          target="_blank"
+          href="https://wa.me/5512981523401?text=Ol%C3%A1%2C%20estou%20querendo%20saber%20mais%20sobre%20o%20seus%20projetos%20front-end."
+          ><div class="contact-us-wpp flex">
+            <img
+              class="icon-wpp flex vert"
+              src="./img/whatsapp.png"
+              alt="whatsapp"
+            />
+            <p class="contact-msg-wpp">Vamos conversar</p>
+          </div>
+        </a>
+        <div class="contact-us-height">
+          <img src="./img/PaperPlaneTilt.svg" alt="paper" />
+          <p class="contact-use-email">E-mail:</p>
+          <p class="email-contact">henriquesousa.dev@gmail.com</p>
+          <img src="./img/CopySimple.svg" alt="copy" />
+        </div>
+      </div>
+      <p class="contact-use-email">Voltar ao topo</p>
+    </div>
+    <!-- footer -->
+    <footer class="footer-git horz vert flex">
+      <p class="copyright-footer hidden">Copyright © Henrique Sousa · 2022</p>
+      <img class="icons-greetings" src="./img/linkedin.png" alt="github" />
+      <img class="icons-greetings" src="./img/github.png" alt="github" />
+      <img class="icons-greetings" src="./img/behance.png" alt="github" />
+    </footer>
   </body>
 </html>
